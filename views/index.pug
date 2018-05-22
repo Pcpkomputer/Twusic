@@ -1,0 +1,11 @@
+doctype html
+html
+  body
+  p= judul
+  div
+    audio(controls id='twusic' autoplay="")
+      source(src=tautan)
+script.
+  var x = document.getElementById('twusic');
+  x.play();
+
